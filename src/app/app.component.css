@@ -1,0 +1,91 @@
+.card-container{
+    display: flex;
+}
+.card{
+    min-width:100%;
+    font-size: xx-large;
+    justify-content: center;
+    align-items: center;
+    background-color: cadetblue;
+    font-weight: bolder;
+    color:white;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2%;
+    gap: 10px;
+}
+.item{
+    width:40%;
+    height:8vh;
+    font-weight: bold;
+}
+.add-item{
+    height:8vh;
+}
+.list-items{
+    display:flex;
+    justify-content: space-between;
+    flex-direction: column;
+    padding:10px;
+}
+.border{
+    width:38%;
+    margin:auto;
+    /* margin-top:30px; */
+    overflow-y: scroll;
+    height:30rem;
+}
+.item-label{
+    color:white;
+    font-size:x-large;
+}
+.listItem{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    border:2px dashed cadetblue;
+    gap:10px;
+    padding:10px;
+    margin-top:10px;
+}
+.buttons{
+    display: flex;
+    gap:10px;
+}
+.clearbtn-container{
+    display: flex;
+    justify-content: center;
+}
+.clearbtn{
+    border:1px solid orange;
+    border-radius: 5px;
+    width:38%;
+    margin-top:20px;
+    padding:10px;
+}
+@media (max-width:800px) {
+    .border{
+        width:90%;
+    }
+    .item{
+        width:100%;
+        height:auto;
+    }
+    .add-item{
+        height:auto;
+    }
+    .listItem{
+        flex-direction: column;
+    }
+    .item-label{
+        color:white;
+        font-size:medium;
+    }
+    .clearbtn{
+        width:90%;
+    }
+    
+}
