@@ -2,6 +2,8 @@
 
 TO - DO Bucket List is a web application which is used to keep track of our TO-DO Items.
 
+# Application URL
+- https://todobucketlist-a7073.web.app/
 # Features of TO-DO Bucket:
 
 - The list of your TO-DO items will be displayed.
